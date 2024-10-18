@@ -1,0 +1,59 @@
+.label-style{
+    font-size: 16px;
+    color: #555555;
+}
+
+.field-style{
+    background-color: #EEEEEE;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+
+
+
+.field-style::placeholder {
+    font-size: 14px;
+    color: #555555;
+}
+
+.custom-shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.otp-style{
+    /* border: 1px solid black; */
+    border-radius: 2px;
+    font-size: 25px;
+    background-color: #EEEEEE;
+    color: #313131;
+}
+
+
+
+.spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: radial-gradient(farthest-side,#3869eb 94%,#0000) top/9px 9px no-repeat,
+           conic-gradient(#0000 30%,#3869eb);
+    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+    animation: spinner-c7wet2 1s infinite linear;
+ }
+ 
+ @keyframes spinner-c7wet2 {
+    100% {
+       transform: rotate(1turn);
+    }
+ }
+
+
+ .sidebar-shadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 6px 0px 12px -2px, rgba(0, 0, 0, 0.3) 3px 0px 7px -3px;
+ }
+
+
+ .profile-shadow{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ }
